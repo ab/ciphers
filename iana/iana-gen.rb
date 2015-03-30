@@ -4,7 +4,7 @@ require 'csv'
 require 'json'
 
 source_basename = 'tls-parameters-4.csv'
-source_file = File.join(File.dirname(__FILE__), 'source', source_basename)
+source_file = File.join(File.dirname(__FILE__), source_basename)
 
 data = CSV.read(ARGV.fetch(0, source_file))
 
