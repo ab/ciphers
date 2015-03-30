@@ -10,7 +10,8 @@
     "enc": "AESGCM(256)",
     "enc_algo": "AESGCM",
     "enc_bits": 256,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0xC0,0x2C": {
     "int": 49196,
@@ -23,7 +24,8 @@
     "enc": "AESGCM(256)",
     "enc_algo": "AESGCM",
     "enc_bits": 256,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0xC0,0x28": {
     "int": 49192,
@@ -36,7 +38,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA384"
+    "mac": "SHA384",
+    "export": false
   },
   "0xC0,0x24": {
     "int": 49188,
@@ -49,7 +52,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA384"
+    "mac": "SHA384",
+    "export": false
   },
   "0xC0,0x14": {
     "int": 49172,
@@ -62,7 +66,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x0A": {
     "int": 49162,
@@ -75,7 +80,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x22": {
     "int": 49186,
@@ -88,7 +94,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x21": {
     "int": 49185,
@@ -101,7 +108,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x20": {
     "int": 49184,
@@ -114,7 +122,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0xA3": {
     "int": 163,
@@ -127,7 +136,8 @@
     "enc": "AESGCM(256)",
     "enc_algo": "AESGCM",
     "enc_bits": 256,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0x00,0x9F": {
     "int": 159,
@@ -140,7 +150,8 @@
     "enc": "AESGCM(256)",
     "enc_algo": "AESGCM",
     "enc_bits": 256,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0x00,0x6B": {
     "int": 107,
@@ -153,7 +164,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0x00,0x6A": {
     "int": 106,
@@ -166,7 +178,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0x00,0x39": {
     "int": 57,
@@ -179,7 +192,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x38": {
     "int": 56,
@@ -192,7 +206,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x88": {
     "int": 136,
@@ -205,7 +220,8 @@
     "enc": "Camellia(256)",
     "enc_algo": "Camellia",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x87": {
     "int": 135,
@@ -218,7 +234,8 @@
     "enc": "Camellia(256)",
     "enc_algo": "Camellia",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x19": {
     "int": 49177,
@@ -231,7 +248,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0xA7": {
     "int": 167,
@@ -244,7 +262,8 @@
     "enc": "AESGCM(256)",
     "enc_algo": "AESGCM",
     "enc_bits": 256,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0x00,0x6D": {
     "int": 109,
@@ -257,7 +276,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0x00,0x3A": {
     "int": 58,
@@ -270,7 +290,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x89": {
     "int": 137,
@@ -283,7 +304,8 @@
     "enc": "Camellia(256)",
     "enc_algo": "Camellia",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x32": {
     "int": 49202,
@@ -296,7 +318,8 @@
     "enc": "AESGCM(256)",
     "enc_algo": "AESGCM",
     "enc_bits": 256,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0xC0,0x2E": {
     "int": 49198,
@@ -309,7 +332,8 @@
     "enc": "AESGCM(256)",
     "enc_algo": "AESGCM",
     "enc_bits": 256,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0xC0,0x2A": {
     "int": 49194,
@@ -322,7 +346,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA384"
+    "mac": "SHA384",
+    "export": false
   },
   "0xC0,0x26": {
     "int": 49190,
@@ -335,7 +360,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA384"
+    "mac": "SHA384",
+    "export": false
   },
   "0xC0,0x0F": {
     "int": 49167,
@@ -348,7 +374,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x05": {
     "int": 49157,
@@ -361,7 +388,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x9D": {
     "int": 157,
@@ -374,7 +402,8 @@
     "enc": "AESGCM(256)",
     "enc_algo": "AESGCM",
     "enc_bits": 256,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0x00,0x3D": {
     "int": 61,
@@ -387,7 +416,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0x00,0x35": {
     "int": 53,
@@ -400,7 +430,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x84": {
     "int": 132,
@@ -413,7 +444,8 @@
     "enc": "Camellia(256)",
     "enc_algo": "Camellia",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x8D": {
     "int": 141,
@@ -426,7 +458,8 @@
     "enc": "AES(256)",
     "enc_algo": "AES",
     "enc_bits": 256,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x12": {
     "int": 49170,
@@ -439,7 +472,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x08": {
     "int": 49160,
@@ -452,7 +486,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x1C": {
     "int": 49180,
@@ -465,7 +500,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x1B": {
     "int": 49179,
@@ -478,7 +514,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x1A": {
     "int": 49178,
@@ -491,7 +528,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x16": {
     "int": 22,
@@ -504,7 +542,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x13": {
     "int": 19,
@@ -517,7 +556,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x17": {
     "int": 49175,
@@ -530,7 +570,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x1B": {
     "int": 27,
@@ -543,7 +584,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x0D": {
     "int": 49165,
@@ -556,7 +598,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x03": {
     "int": 49155,
@@ -569,7 +612,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x0A": {
     "int": 10,
@@ -582,7 +626,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x8B": {
     "int": 139,
@@ -595,7 +640,8 @@
     "enc": "3DES(168)",
     "enc_algo": "3DES",
     "enc_bits": 168,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x2F": {
     "int": 49199,
@@ -608,7 +654,8 @@
     "enc": "AESGCM(128)",
     "enc_algo": "AESGCM",
     "enc_bits": 128,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0xC0,0x2B": {
     "int": 49195,
@@ -621,7 +668,8 @@
     "enc": "AESGCM(128)",
     "enc_algo": "AESGCM",
     "enc_bits": 128,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0xC0,0x27": {
     "int": 49191,
@@ -634,7 +682,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0xC0,0x23": {
     "int": 49187,
@@ -647,7 +696,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0xC0,0x13": {
     "int": 49171,
@@ -660,7 +710,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x09": {
     "int": 49161,
@@ -673,7 +724,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x1F": {
     "int": 49183,
@@ -686,7 +738,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x1E": {
     "int": 49182,
@@ -699,7 +752,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x1D": {
     "int": 49181,
@@ -712,7 +766,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0xA2": {
     "int": 162,
@@ -725,7 +780,8 @@
     "enc": "AESGCM(128)",
     "enc_algo": "AESGCM",
     "enc_bits": 128,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0x00,0x9E": {
     "int": 158,
@@ -738,7 +794,8 @@
     "enc": "AESGCM(128)",
     "enc_algo": "AESGCM",
     "enc_bits": 128,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0x00,0x67": {
     "int": 103,
@@ -751,7 +808,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0x00,0x40": {
     "int": 64,
@@ -764,7 +822,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0x00,0x33": {
     "int": 51,
@@ -777,7 +836,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x32": {
     "int": 50,
@@ -790,7 +850,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x9A": {
     "int": 154,
@@ -803,7 +864,8 @@
     "enc": "SEED(128)",
     "enc_algo": "SEED",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x99": {
     "int": 153,
@@ -816,7 +878,8 @@
     "enc": "SEED(128)",
     "enc_algo": "SEED",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x45": {
     "int": 69,
@@ -829,7 +892,8 @@
     "enc": "Camellia(128)",
     "enc_algo": "Camellia",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x44": {
     "int": 68,
@@ -842,7 +906,8 @@
     "enc": "Camellia(128)",
     "enc_algo": "Camellia",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x18": {
     "int": 49176,
@@ -855,7 +920,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0xA6": {
     "int": 166,
@@ -868,7 +934,8 @@
     "enc": "AESGCM(128)",
     "enc_algo": "AESGCM",
     "enc_bits": 128,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0x00,0x6C": {
     "int": 108,
@@ -881,7 +948,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0x00,0x34": {
     "int": 52,
@@ -894,7 +962,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x9B": {
     "int": 155,
@@ -907,7 +976,8 @@
     "enc": "SEED(128)",
     "enc_algo": "SEED",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x46": {
     "int": 70,
@@ -920,7 +990,8 @@
     "enc": "Camellia(128)",
     "enc_algo": "Camellia",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x31": {
     "int": 49201,
@@ -933,7 +1004,8 @@
     "enc": "AESGCM(128)",
     "enc_algo": "AESGCM",
     "enc_bits": 128,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0xC0,0x2D": {
     "int": 49197,
@@ -946,7 +1018,8 @@
     "enc": "AESGCM(128)",
     "enc_algo": "AESGCM",
     "enc_bits": 128,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0xC0,0x29": {
     "int": 49193,
@@ -959,7 +1032,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0xC0,0x25": {
     "int": 49189,
@@ -972,7 +1046,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0xC0,0x0E": {
     "int": 49166,
@@ -985,7 +1060,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x04": {
     "int": 49156,
@@ -998,7 +1074,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x9C": {
     "int": 156,
@@ -1011,7 +1088,8 @@
     "enc": "AESGCM(128)",
     "enc_algo": "AESGCM",
     "enc_bits": 128,
-    "mac": "AEAD"
+    "mac": "AEAD",
+    "export": false
   },
   "0x00,0x3C": {
     "int": 60,
@@ -1024,7 +1102,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA256"
+    "mac": "SHA256",
+    "export": false
   },
   "0x00,0x2F": {
     "int": 47,
@@ -1037,7 +1116,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x96": {
     "int": 150,
@@ -1050,7 +1130,8 @@
     "enc": "SEED(128)",
     "enc_algo": "SEED",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x41": {
     "int": 65,
@@ -1063,7 +1144,8 @@
     "enc": "Camellia(128)",
     "enc_algo": "Camellia",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x8C": {
     "int": 140,
@@ -1076,7 +1158,8 @@
     "enc": "AES(128)",
     "enc_algo": "AES",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x11": {
     "int": 49169,
@@ -1089,7 +1172,8 @@
     "enc": "RC4(128)",
     "enc_algo": "RC4",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x07": {
     "int": 49159,
@@ -1102,7 +1186,8 @@
     "enc": "RC4(128)",
     "enc_algo": "RC4",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x16": {
     "int": 49174,
@@ -1115,7 +1200,8 @@
     "enc": "RC4(128)",
     "enc_algo": "RC4",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x18": {
     "int": 24,
@@ -1128,7 +1214,8 @@
     "enc": "RC4(128)",
     "enc_algo": "RC4",
     "enc_bits": 128,
-    "mac": "MD5"
+    "mac": "MD5",
+    "export": false
   },
   "0xC0,0x0C": {
     "int": 49164,
@@ -1141,7 +1228,8 @@
     "enc": "RC4(128)",
     "enc_algo": "RC4",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0xC0,0x02": {
     "int": 49154,
@@ -1154,7 +1242,8 @@
     "enc": "RC4(128)",
     "enc_algo": "RC4",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x05": {
     "int": 5,
@@ -1167,7 +1256,8 @@
     "enc": "RC4(128)",
     "enc_algo": "RC4",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x04": {
     "int": 4,
@@ -1180,7 +1270,8 @@
     "enc": "RC4(128)",
     "enc_algo": "RC4",
     "enc_bits": 128,
-    "mac": "MD5"
+    "mac": "MD5",
+    "export": false
   },
   "0x00,0x8A": {
     "int": 138,
@@ -1193,7 +1284,8 @@
     "enc": "RC4(128)",
     "enc_algo": "RC4",
     "enc_bits": 128,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x15": {
     "int": 21,
@@ -1206,7 +1298,8 @@
     "enc": "DES(56)",
     "enc_algo": "DES",
     "enc_bits": 56,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x12": {
     "int": 18,
@@ -1219,7 +1312,8 @@
     "enc": "DES(56)",
     "enc_algo": "DES",
     "enc_bits": 56,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x1A": {
     "int": 26,
@@ -1232,7 +1326,8 @@
     "enc": "DES(56)",
     "enc_algo": "DES",
     "enc_bits": 56,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x09": {
     "int": 9,
@@ -1245,7 +1340,8 @@
     "enc": "DES(56)",
     "enc_algo": "DES",
     "enc_bits": 56,
-    "mac": "SHA1"
+    "mac": "SHA1",
+    "export": false
   },
   "0x00,0x14": {
     "int": 20,

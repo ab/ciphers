@@ -46,9 +46,7 @@ def main(filename)
     extra = extra.merge(process_enc(enc))
     extra['mac'] = process_equals_arg('mac', mac)
 
-    if export
-      extra['export'] = true
-    end
+    extra['export'] = !!export
 
     output[value] = {
       'int' => int,
