@@ -35,7 +35,7 @@ data[1..-1].each do |row|
     'int' => int,
     'byte1' => byte1,
     'byte2' => byte2,
-    'IANA' => description,
+    'iana' => description,
     'dtls?' => BooleanMap.fetch(dtls_ok),
     'reference' => reference,
   }

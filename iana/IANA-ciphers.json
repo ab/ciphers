@@ -3,7 +3,7 @@
     "int": 0,
     "byte1": "0x00",
     "byte2": "0x00",
-    "IANA": "TLS_NULL_WITH_NULL_NULL",
+    "iana": "TLS_NULL_WITH_NULL_NULL",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -11,7 +11,7 @@
     "int": 1,
     "byte1": "0x00",
     "byte2": "0x01",
-    "IANA": "TLS_RSA_WITH_NULL_MD5",
+    "iana": "TLS_RSA_WITH_NULL_MD5",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -19,7 +19,7 @@
     "int": 2,
     "byte1": "0x00",
     "byte2": "0x02",
-    "IANA": "TLS_RSA_WITH_NULL_SHA",
+    "iana": "TLS_RSA_WITH_NULL_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -27,7 +27,7 @@
     "int": 3,
     "byte1": "0x00",
     "byte2": "0x03",
-    "IANA": "TLS_RSA_EXPORT_WITH_RC4_40_MD5",
+    "iana": "TLS_RSA_EXPORT_WITH_RC4_40_MD5",
     "dtls?": false,
     "reference": "[RFC4346][RFC6347]"
   },
@@ -35,7 +35,7 @@
     "int": 4,
     "byte1": "0x00",
     "byte2": "0x04",
-    "IANA": "TLS_RSA_WITH_RC4_128_MD5",
+    "iana": "TLS_RSA_WITH_RC4_128_MD5",
     "dtls?": false,
     "reference": "[RFC5246][RFC6347]"
   },
@@ -43,7 +43,7 @@
     "int": 5,
     "byte1": "0x00",
     "byte2": "0x05",
-    "IANA": "TLS_RSA_WITH_RC4_128_SHA",
+    "iana": "TLS_RSA_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC5246][RFC6347]"
   },
@@ -51,7 +51,7 @@
     "int": 6,
     "byte1": "0x00",
     "byte2": "0x06",
-    "IANA": "TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5",
+    "iana": "TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5",
     "dtls?": true,
     "reference": "[RFC4346]"
   },
@@ -59,7 +59,7 @@
     "int": 7,
     "byte1": "0x00",
     "byte2": "0x07",
-    "IANA": "TLS_RSA_WITH_IDEA_CBC_SHA",
+    "iana": "TLS_RSA_WITH_IDEA_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5469]"
   },
@@ -67,7 +67,7 @@
     "int": 8,
     "byte1": "0x00",
     "byte2": "0x08",
-    "IANA": "TLS_RSA_EXPORT_WITH_DES40_CBC_SHA",
+    "iana": "TLS_RSA_EXPORT_WITH_DES40_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4346]"
   },
@@ -75,7 +75,7 @@
     "int": 9,
     "byte1": "0x00",
     "byte2": "0x09",
-    "IANA": "TLS_RSA_WITH_DES_CBC_SHA",
+    "iana": "TLS_RSA_WITH_DES_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5469]"
   },
@@ -83,7 +83,7 @@
     "int": 10,
     "byte1": "0x00",
     "byte2": "0x0A",
-    "IANA": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -91,7 +91,7 @@
     "int": 11,
     "byte1": "0x00",
     "byte2": "0x0B",
-    "IANA": "TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA",
+    "iana": "TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4346]"
   },
@@ -99,7 +99,7 @@
     "int": 12,
     "byte1": "0x00",
     "byte2": "0x0C",
-    "IANA": "TLS_DH_DSS_WITH_DES_CBC_SHA",
+    "iana": "TLS_DH_DSS_WITH_DES_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5469]"
   },
@@ -107,7 +107,7 @@
     "int": 13,
     "byte1": "0x00",
     "byte2": "0x0D",
-    "IANA": "TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -115,7 +115,7 @@
     "int": 14,
     "byte1": "0x00",
     "byte2": "0x0E",
-    "IANA": "TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA",
+    "iana": "TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4346]"
   },
@@ -123,7 +123,7 @@
     "int": 15,
     "byte1": "0x00",
     "byte2": "0x0F",
-    "IANA": "TLS_DH_RSA_WITH_DES_CBC_SHA",
+    "iana": "TLS_DH_RSA_WITH_DES_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5469]"
   },
@@ -131,7 +131,7 @@
     "int": 16,
     "byte1": "0x00",
     "byte2": "0x10",
-    "IANA": "TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -139,7 +139,7 @@
     "int": 17,
     "byte1": "0x00",
     "byte2": "0x11",
-    "IANA": "TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA",
+    "iana": "TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4346]"
   },
@@ -147,7 +147,7 @@
     "int": 18,
     "byte1": "0x00",
     "byte2": "0x12",
-    "IANA": "TLS_DHE_DSS_WITH_DES_CBC_SHA",
+    "iana": "TLS_DHE_DSS_WITH_DES_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5469]"
   },
@@ -155,7 +155,7 @@
     "int": 19,
     "byte1": "0x00",
     "byte2": "0x13",
-    "IANA": "TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -163,7 +163,7 @@
     "int": 20,
     "byte1": "0x00",
     "byte2": "0x14",
-    "IANA": "TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA",
+    "iana": "TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4346]"
   },
@@ -171,7 +171,7 @@
     "int": 21,
     "byte1": "0x00",
     "byte2": "0x15",
-    "IANA": "TLS_DHE_RSA_WITH_DES_CBC_SHA",
+    "iana": "TLS_DHE_RSA_WITH_DES_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5469]"
   },
@@ -179,7 +179,7 @@
     "int": 22,
     "byte1": "0x00",
     "byte2": "0x16",
-    "IANA": "TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -187,7 +187,7 @@
     "int": 23,
     "byte1": "0x00",
     "byte2": "0x17",
-    "IANA": "TLS_DH_anon_EXPORT_WITH_RC4_40_MD5",
+    "iana": "TLS_DH_anon_EXPORT_WITH_RC4_40_MD5",
     "dtls?": false,
     "reference": "[RFC4346][RFC6347]"
   },
@@ -195,7 +195,7 @@
     "int": 24,
     "byte1": "0x00",
     "byte2": "0x18",
-    "IANA": "TLS_DH_anon_WITH_RC4_128_MD5",
+    "iana": "TLS_DH_anon_WITH_RC4_128_MD5",
     "dtls?": false,
     "reference": "[RFC5246][RFC6347]"
   },
@@ -203,7 +203,7 @@
     "int": 25,
     "byte1": "0x00",
     "byte2": "0x19",
-    "IANA": "TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA",
+    "iana": "TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4346]"
   },
@@ -211,7 +211,7 @@
     "int": 26,
     "byte1": "0x00",
     "byte2": "0x1A",
-    "IANA": "TLS_DH_anon_WITH_DES_CBC_SHA",
+    "iana": "TLS_DH_anon_WITH_DES_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5469]"
   },
@@ -219,7 +219,7 @@
     "int": 27,
     "byte1": "0x00",
     "byte2": "0x1B",
-    "IANA": "TLS_DH_anon_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_DH_anon_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -227,7 +227,7 @@
     "int": 30,
     "byte1": "0x00",
     "byte2": "0x1E",
-    "IANA": "TLS_KRB5_WITH_DES_CBC_SHA",
+    "iana": "TLS_KRB5_WITH_DES_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC2712]"
   },
@@ -235,7 +235,7 @@
     "int": 31,
     "byte1": "0x00",
     "byte2": "0x1F",
-    "IANA": "TLS_KRB5_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_KRB5_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC2712]"
   },
@@ -243,7 +243,7 @@
     "int": 32,
     "byte1": "0x00",
     "byte2": "0x20",
-    "IANA": "TLS_KRB5_WITH_RC4_128_SHA",
+    "iana": "TLS_KRB5_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC2712][RFC6347]"
   },
@@ -251,7 +251,7 @@
     "int": 33,
     "byte1": "0x00",
     "byte2": "0x21",
-    "IANA": "TLS_KRB5_WITH_IDEA_CBC_SHA",
+    "iana": "TLS_KRB5_WITH_IDEA_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC2712]"
   },
@@ -259,7 +259,7 @@
     "int": 34,
     "byte1": "0x00",
     "byte2": "0x22",
-    "IANA": "TLS_KRB5_WITH_DES_CBC_MD5",
+    "iana": "TLS_KRB5_WITH_DES_CBC_MD5",
     "dtls?": true,
     "reference": "[RFC2712]"
   },
@@ -267,7 +267,7 @@
     "int": 35,
     "byte1": "0x00",
     "byte2": "0x23",
-    "IANA": "TLS_KRB5_WITH_3DES_EDE_CBC_MD5",
+    "iana": "TLS_KRB5_WITH_3DES_EDE_CBC_MD5",
     "dtls?": true,
     "reference": "[RFC2712]"
   },
@@ -275,7 +275,7 @@
     "int": 36,
     "byte1": "0x00",
     "byte2": "0x24",
-    "IANA": "TLS_KRB5_WITH_RC4_128_MD5",
+    "iana": "TLS_KRB5_WITH_RC4_128_MD5",
     "dtls?": false,
     "reference": "[RFC2712][RFC6347]"
   },
@@ -283,7 +283,7 @@
     "int": 37,
     "byte1": "0x00",
     "byte2": "0x25",
-    "IANA": "TLS_KRB5_WITH_IDEA_CBC_MD5",
+    "iana": "TLS_KRB5_WITH_IDEA_CBC_MD5",
     "dtls?": true,
     "reference": "[RFC2712]"
   },
@@ -291,7 +291,7 @@
     "int": 38,
     "byte1": "0x00",
     "byte2": "0x26",
-    "IANA": "TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA",
+    "iana": "TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA",
     "dtls?": true,
     "reference": "[RFC2712]"
   },
@@ -299,7 +299,7 @@
     "int": 39,
     "byte1": "0x00",
     "byte2": "0x27",
-    "IANA": "TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA",
+    "iana": "TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA",
     "dtls?": true,
     "reference": "[RFC2712]"
   },
@@ -307,7 +307,7 @@
     "int": 40,
     "byte1": "0x00",
     "byte2": "0x28",
-    "IANA": "TLS_KRB5_EXPORT_WITH_RC4_40_SHA",
+    "iana": "TLS_KRB5_EXPORT_WITH_RC4_40_SHA",
     "dtls?": false,
     "reference": "[RFC2712][RFC6347]"
   },
@@ -315,7 +315,7 @@
     "int": 41,
     "byte1": "0x00",
     "byte2": "0x29",
-    "IANA": "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5",
+    "iana": "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5",
     "dtls?": true,
     "reference": "[RFC2712]"
   },
@@ -323,7 +323,7 @@
     "int": 42,
     "byte1": "0x00",
     "byte2": "0x2A",
-    "IANA": "TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5",
+    "iana": "TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5",
     "dtls?": true,
     "reference": "[RFC2712]"
   },
@@ -331,7 +331,7 @@
     "int": 43,
     "byte1": "0x00",
     "byte2": "0x2B",
-    "IANA": "TLS_KRB5_EXPORT_WITH_RC4_40_MD5",
+    "iana": "TLS_KRB5_EXPORT_WITH_RC4_40_MD5",
     "dtls?": false,
     "reference": "[RFC2712][RFC6347]"
   },
@@ -339,7 +339,7 @@
     "int": 44,
     "byte1": "0x00",
     "byte2": "0x2C",
-    "IANA": "TLS_PSK_WITH_NULL_SHA",
+    "iana": "TLS_PSK_WITH_NULL_SHA",
     "dtls?": true,
     "reference": "[RFC4785]"
   },
@@ -347,7 +347,7 @@
     "int": 45,
     "byte1": "0x00",
     "byte2": "0x2D",
-    "IANA": "TLS_DHE_PSK_WITH_NULL_SHA",
+    "iana": "TLS_DHE_PSK_WITH_NULL_SHA",
     "dtls?": true,
     "reference": "[RFC4785]"
   },
@@ -355,7 +355,7 @@
     "int": 46,
     "byte1": "0x00",
     "byte2": "0x2E",
-    "IANA": "TLS_RSA_PSK_WITH_NULL_SHA",
+    "iana": "TLS_RSA_PSK_WITH_NULL_SHA",
     "dtls?": true,
     "reference": "[RFC4785]"
   },
@@ -363,7 +363,7 @@
     "int": 47,
     "byte1": "0x00",
     "byte2": "0x2F",
-    "IANA": "TLS_RSA_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_RSA_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -371,7 +371,7 @@
     "int": 48,
     "byte1": "0x00",
     "byte2": "0x30",
-    "IANA": "TLS_DH_DSS_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_DH_DSS_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -379,7 +379,7 @@
     "int": 49,
     "byte1": "0x00",
     "byte2": "0x31",
-    "IANA": "TLS_DH_RSA_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_DH_RSA_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -387,7 +387,7 @@
     "int": 50,
     "byte1": "0x00",
     "byte2": "0x32",
-    "IANA": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -395,7 +395,7 @@
     "int": 51,
     "byte1": "0x00",
     "byte2": "0x33",
-    "IANA": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -403,7 +403,7 @@
     "int": 52,
     "byte1": "0x00",
     "byte2": "0x34",
-    "IANA": "TLS_DH_anon_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_DH_anon_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -411,7 +411,7 @@
     "int": 53,
     "byte1": "0x00",
     "byte2": "0x35",
-    "IANA": "TLS_RSA_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_RSA_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -419,7 +419,7 @@
     "int": 54,
     "byte1": "0x00",
     "byte2": "0x36",
-    "IANA": "TLS_DH_DSS_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_DH_DSS_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -427,7 +427,7 @@
     "int": 55,
     "byte1": "0x00",
     "byte2": "0x37",
-    "IANA": "TLS_DH_RSA_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_DH_RSA_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -435,7 +435,7 @@
     "int": 56,
     "byte1": "0x00",
     "byte2": "0x38",
-    "IANA": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -443,7 +443,7 @@
     "int": 57,
     "byte1": "0x00",
     "byte2": "0x39",
-    "IANA": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -451,7 +451,7 @@
     "int": 58,
     "byte1": "0x00",
     "byte2": "0x3A",
-    "IANA": "TLS_DH_anon_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_DH_anon_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -459,7 +459,7 @@
     "int": 59,
     "byte1": "0x00",
     "byte2": "0x3B",
-    "IANA": "TLS_RSA_WITH_NULL_SHA256",
+    "iana": "TLS_RSA_WITH_NULL_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -467,7 +467,7 @@
     "int": 60,
     "byte1": "0x00",
     "byte2": "0x3C",
-    "IANA": "TLS_RSA_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_RSA_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -475,7 +475,7 @@
     "int": 61,
     "byte1": "0x00",
     "byte2": "0x3D",
-    "IANA": "TLS_RSA_WITH_AES_256_CBC_SHA256",
+    "iana": "TLS_RSA_WITH_AES_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -483,7 +483,7 @@
     "int": 62,
     "byte1": "0x00",
     "byte2": "0x3E",
-    "IANA": "TLS_DH_DSS_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_DH_DSS_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -491,7 +491,7 @@
     "int": 63,
     "byte1": "0x00",
     "byte2": "0x3F",
-    "IANA": "TLS_DH_RSA_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_DH_RSA_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -499,7 +499,7 @@
     "int": 64,
     "byte1": "0x00",
     "byte2": "0x40",
-    "IANA": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -507,7 +507,7 @@
     "int": 65,
     "byte1": "0x00",
     "byte2": "0x41",
-    "IANA": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA",
+    "iana": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -515,7 +515,7 @@
     "int": 66,
     "byte1": "0x00",
     "byte2": "0x42",
-    "IANA": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -523,7 +523,7 @@
     "int": 67,
     "byte1": "0x00",
     "byte2": "0x43",
-    "IANA": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -531,7 +531,7 @@
     "int": 68,
     "byte1": "0x00",
     "byte2": "0x44",
-    "IANA": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -539,7 +539,7 @@
     "int": 69,
     "byte1": "0x00",
     "byte2": "0x45",
-    "IANA": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -547,7 +547,7 @@
     "int": 70,
     "byte1": "0x00",
     "byte2": "0x46",
-    "IANA": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -555,7 +555,7 @@
     "int": 103,
     "byte1": "0x00",
     "byte2": "0x67",
-    "IANA": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -563,7 +563,7 @@
     "int": 104,
     "byte1": "0x00",
     "byte2": "0x68",
-    "IANA": "TLS_DH_DSS_WITH_AES_256_CBC_SHA256",
+    "iana": "TLS_DH_DSS_WITH_AES_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -571,7 +571,7 @@
     "int": 105,
     "byte1": "0x00",
     "byte2": "0x69",
-    "IANA": "TLS_DH_RSA_WITH_AES_256_CBC_SHA256",
+    "iana": "TLS_DH_RSA_WITH_AES_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -579,7 +579,7 @@
     "int": 106,
     "byte1": "0x00",
     "byte2": "0x6A",
-    "IANA": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256",
+    "iana": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -587,7 +587,7 @@
     "int": 107,
     "byte1": "0x00",
     "byte2": "0x6B",
-    "IANA": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+    "iana": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -595,7 +595,7 @@
     "int": 108,
     "byte1": "0x00",
     "byte2": "0x6C",
-    "IANA": "TLS_DH_anon_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_DH_anon_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -603,7 +603,7 @@
     "int": 109,
     "byte1": "0x00",
     "byte2": "0x6D",
-    "IANA": "TLS_DH_anon_WITH_AES_256_CBC_SHA256",
+    "iana": "TLS_DH_anon_WITH_AES_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5246]"
   },
@@ -611,7 +611,7 @@
     "int": 132,
     "byte1": "0x00",
     "byte2": "0x84",
-    "IANA": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA",
+    "iana": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -619,7 +619,7 @@
     "int": 133,
     "byte1": "0x00",
     "byte2": "0x85",
-    "IANA": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -627,7 +627,7 @@
     "int": 134,
     "byte1": "0x00",
     "byte2": "0x86",
-    "IANA": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -635,7 +635,7 @@
     "int": 135,
     "byte1": "0x00",
     "byte2": "0x87",
-    "IANA": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -643,7 +643,7 @@
     "int": 136,
     "byte1": "0x00",
     "byte2": "0x88",
-    "IANA": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -651,7 +651,7 @@
     "int": 137,
     "byte1": "0x00",
     "byte2": "0x89",
-    "IANA": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -659,7 +659,7 @@
     "int": 138,
     "byte1": "0x00",
     "byte2": "0x8A",
-    "IANA": "TLS_PSK_WITH_RC4_128_SHA",
+    "iana": "TLS_PSK_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC4279][RFC6347]"
   },
@@ -667,7 +667,7 @@
     "int": 139,
     "byte1": "0x00",
     "byte2": "0x8B",
-    "IANA": "TLS_PSK_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_PSK_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4279]"
   },
@@ -675,7 +675,7 @@
     "int": 140,
     "byte1": "0x00",
     "byte2": "0x8C",
-    "IANA": "TLS_PSK_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_PSK_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4279]"
   },
@@ -683,7 +683,7 @@
     "int": 141,
     "byte1": "0x00",
     "byte2": "0x8D",
-    "IANA": "TLS_PSK_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_PSK_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4279]"
   },
@@ -691,7 +691,7 @@
     "int": 142,
     "byte1": "0x00",
     "byte2": "0x8E",
-    "IANA": "TLS_DHE_PSK_WITH_RC4_128_SHA",
+    "iana": "TLS_DHE_PSK_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC4279][RFC6347]"
   },
@@ -699,7 +699,7 @@
     "int": 143,
     "byte1": "0x00",
     "byte2": "0x8F",
-    "IANA": "TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4279]"
   },
@@ -707,7 +707,7 @@
     "int": 144,
     "byte1": "0x00",
     "byte2": "0x90",
-    "IANA": "TLS_DHE_PSK_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_DHE_PSK_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4279]"
   },
@@ -715,7 +715,7 @@
     "int": 145,
     "byte1": "0x00",
     "byte2": "0x91",
-    "IANA": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4279]"
   },
@@ -723,7 +723,7 @@
     "int": 146,
     "byte1": "0x00",
     "byte2": "0x92",
-    "IANA": "TLS_RSA_PSK_WITH_RC4_128_SHA",
+    "iana": "TLS_RSA_PSK_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC4279][RFC6347]"
   },
@@ -731,7 +731,7 @@
     "int": 147,
     "byte1": "0x00",
     "byte2": "0x93",
-    "IANA": "TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4279]"
   },
@@ -739,7 +739,7 @@
     "int": 148,
     "byte1": "0x00",
     "byte2": "0x94",
-    "IANA": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4279]"
   },
@@ -747,7 +747,7 @@
     "int": 149,
     "byte1": "0x00",
     "byte2": "0x95",
-    "IANA": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4279]"
   },
@@ -755,7 +755,7 @@
     "int": 150,
     "byte1": "0x00",
     "byte2": "0x96",
-    "IANA": "TLS_RSA_WITH_SEED_CBC_SHA",
+    "iana": "TLS_RSA_WITH_SEED_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4162]"
   },
@@ -763,7 +763,7 @@
     "int": 151,
     "byte1": "0x00",
     "byte2": "0x97",
-    "IANA": "TLS_DH_DSS_WITH_SEED_CBC_SHA",
+    "iana": "TLS_DH_DSS_WITH_SEED_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4162]"
   },
@@ -771,7 +771,7 @@
     "int": 152,
     "byte1": "0x00",
     "byte2": "0x98",
-    "IANA": "TLS_DH_RSA_WITH_SEED_CBC_SHA",
+    "iana": "TLS_DH_RSA_WITH_SEED_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4162]"
   },
@@ -779,7 +779,7 @@
     "int": 153,
     "byte1": "0x00",
     "byte2": "0x99",
-    "IANA": "TLS_DHE_DSS_WITH_SEED_CBC_SHA",
+    "iana": "TLS_DHE_DSS_WITH_SEED_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4162]"
   },
@@ -787,7 +787,7 @@
     "int": 154,
     "byte1": "0x00",
     "byte2": "0x9A",
-    "IANA": "TLS_DHE_RSA_WITH_SEED_CBC_SHA",
+    "iana": "TLS_DHE_RSA_WITH_SEED_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4162]"
   },
@@ -795,7 +795,7 @@
     "int": 155,
     "byte1": "0x00",
     "byte2": "0x9B",
-    "IANA": "TLS_DH_anon_WITH_SEED_CBC_SHA",
+    "iana": "TLS_DH_anon_WITH_SEED_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4162]"
   },
@@ -803,7 +803,7 @@
     "int": 156,
     "byte1": "0x00",
     "byte2": "0x9C",
-    "IANA": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_RSA_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -811,7 +811,7 @@
     "int": 157,
     "byte1": "0x00",
     "byte2": "0x9D",
-    "IANA": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_RSA_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -819,7 +819,7 @@
     "int": 158,
     "byte1": "0x00",
     "byte2": "0x9E",
-    "IANA": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -827,7 +827,7 @@
     "int": 159,
     "byte1": "0x00",
     "byte2": "0x9F",
-    "IANA": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -835,7 +835,7 @@
     "int": 160,
     "byte1": "0x00",
     "byte2": "0xA0",
-    "IANA": "TLS_DH_RSA_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_DH_RSA_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -843,7 +843,7 @@
     "int": 161,
     "byte1": "0x00",
     "byte2": "0xA1",
-    "IANA": "TLS_DH_RSA_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_DH_RSA_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -851,7 +851,7 @@
     "int": 162,
     "byte1": "0x00",
     "byte2": "0xA2",
-    "IANA": "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -859,7 +859,7 @@
     "int": 163,
     "byte1": "0x00",
     "byte2": "0xA3",
-    "IANA": "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -867,7 +867,7 @@
     "int": 164,
     "byte1": "0x00",
     "byte2": "0xA4",
-    "IANA": "TLS_DH_DSS_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_DH_DSS_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -875,7 +875,7 @@
     "int": 165,
     "byte1": "0x00",
     "byte2": "0xA5",
-    "IANA": "TLS_DH_DSS_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_DH_DSS_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -883,7 +883,7 @@
     "int": 166,
     "byte1": "0x00",
     "byte2": "0xA6",
-    "IANA": "TLS_DH_anon_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_DH_anon_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -891,7 +891,7 @@
     "int": 167,
     "byte1": "0x00",
     "byte2": "0xA7",
-    "IANA": "TLS_DH_anon_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_DH_anon_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5288]"
   },
@@ -899,7 +899,7 @@
     "int": 168,
     "byte1": "0x00",
     "byte2": "0xA8",
-    "IANA": "TLS_PSK_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_PSK_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -907,7 +907,7 @@
     "int": 169,
     "byte1": "0x00",
     "byte2": "0xA9",
-    "IANA": "TLS_PSK_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_PSK_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -915,7 +915,7 @@
     "int": 170,
     "byte1": "0x00",
     "byte2": "0xAA",
-    "IANA": "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -923,7 +923,7 @@
     "int": 171,
     "byte1": "0x00",
     "byte2": "0xAB",
-    "IANA": "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -931,7 +931,7 @@
     "int": 172,
     "byte1": "0x00",
     "byte2": "0xAC",
-    "IANA": "TLS_RSA_PSK_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_RSA_PSK_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -939,7 +939,7 @@
     "int": 173,
     "byte1": "0x00",
     "byte2": "0xAD",
-    "IANA": "TLS_RSA_PSK_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_RSA_PSK_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -947,7 +947,7 @@
     "int": 174,
     "byte1": "0x00",
     "byte2": "0xAE",
-    "IANA": "TLS_PSK_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_PSK_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -955,7 +955,7 @@
     "int": 175,
     "byte1": "0x00",
     "byte2": "0xAF",
-    "IANA": "TLS_PSK_WITH_AES_256_CBC_SHA384",
+    "iana": "TLS_PSK_WITH_AES_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -963,7 +963,7 @@
     "int": 176,
     "byte1": "0x00",
     "byte2": "0xB0",
-    "IANA": "TLS_PSK_WITH_NULL_SHA256",
+    "iana": "TLS_PSK_WITH_NULL_SHA256",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -971,7 +971,7 @@
     "int": 177,
     "byte1": "0x00",
     "byte2": "0xB1",
-    "IANA": "TLS_PSK_WITH_NULL_SHA384",
+    "iana": "TLS_PSK_WITH_NULL_SHA384",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -979,7 +979,7 @@
     "int": 178,
     "byte1": "0x00",
     "byte2": "0xB2",
-    "IANA": "TLS_DHE_PSK_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_DHE_PSK_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -987,7 +987,7 @@
     "int": 179,
     "byte1": "0x00",
     "byte2": "0xB3",
-    "IANA": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA384",
+    "iana": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -995,7 +995,7 @@
     "int": 180,
     "byte1": "0x00",
     "byte2": "0xB4",
-    "IANA": "TLS_DHE_PSK_WITH_NULL_SHA256",
+    "iana": "TLS_DHE_PSK_WITH_NULL_SHA256",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -1003,7 +1003,7 @@
     "int": 181,
     "byte1": "0x00",
     "byte2": "0xB5",
-    "IANA": "TLS_DHE_PSK_WITH_NULL_SHA384",
+    "iana": "TLS_DHE_PSK_WITH_NULL_SHA384",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -1011,7 +1011,7 @@
     "int": 182,
     "byte1": "0x00",
     "byte2": "0xB6",
-    "IANA": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -1019,7 +1019,7 @@
     "int": 183,
     "byte1": "0x00",
     "byte2": "0xB7",
-    "IANA": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA384",
+    "iana": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -1027,7 +1027,7 @@
     "int": 184,
     "byte1": "0x00",
     "byte2": "0xB8",
-    "IANA": "TLS_RSA_PSK_WITH_NULL_SHA256",
+    "iana": "TLS_RSA_PSK_WITH_NULL_SHA256",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -1035,7 +1035,7 @@
     "int": 185,
     "byte1": "0x00",
     "byte2": "0xB9",
-    "IANA": "TLS_RSA_PSK_WITH_NULL_SHA384",
+    "iana": "TLS_RSA_PSK_WITH_NULL_SHA384",
     "dtls?": true,
     "reference": "[RFC5487]"
   },
@@ -1043,7 +1043,7 @@
     "int": 186,
     "byte1": "0x00",
     "byte2": "0xBA",
-    "IANA": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1051,7 +1051,7 @@
     "int": 187,
     "byte1": "0x00",
     "byte2": "0xBB",
-    "IANA": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1059,7 +1059,7 @@
     "int": 188,
     "byte1": "0x00",
     "byte2": "0xBC",
-    "IANA": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1067,7 +1067,7 @@
     "int": 189,
     "byte1": "0x00",
     "byte2": "0xBD",
-    "IANA": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1075,7 +1075,7 @@
     "int": 190,
     "byte1": "0x00",
     "byte2": "0xBE",
-    "IANA": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1083,7 +1083,7 @@
     "int": 191,
     "byte1": "0x00",
     "byte2": "0xBF",
-    "IANA": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1091,7 +1091,7 @@
     "int": 192,
     "byte1": "0x00",
     "byte2": "0xC0",
-    "IANA": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256",
+    "iana": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1099,7 +1099,7 @@
     "int": 193,
     "byte1": "0x00",
     "byte2": "0xC1",
-    "IANA": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1107,7 +1107,7 @@
     "int": 194,
     "byte1": "0x00",
     "byte2": "0xC2",
-    "IANA": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1115,7 +1115,7 @@
     "int": 195,
     "byte1": "0x00",
     "byte2": "0xC3",
-    "IANA": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1123,7 +1123,7 @@
     "int": 196,
     "byte1": "0x00",
     "byte2": "0xC4",
-    "IANA": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1131,7 +1131,7 @@
     "int": 197,
     "byte1": "0x00",
     "byte2": "0xC5",
-    "IANA": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5932]"
   },
@@ -1139,7 +1139,7 @@
     "int": 255,
     "byte1": "0x00",
     "byte2": "0xFF",
-    "IANA": "TLS_EMPTY_RENEGOTIATION_INFO_SCSV",
+    "iana": "TLS_EMPTY_RENEGOTIATION_INFO_SCSV",
     "dtls?": true,
     "reference": "[RFC5746]"
   },
@@ -1147,7 +1147,7 @@
     "int": 22016,
     "byte1": "0x56",
     "byte2": "0x00",
-    "IANA": "TLS_FALLBACK_SCSV",
+    "iana": "TLS_FALLBACK_SCSV",
     "dtls?": true,
     "reference": "[RFC-ietf-tls-downgrade-scsv-05]"
   },
@@ -1155,7 +1155,7 @@
     "int": 49153,
     "byte1": "0xC0",
     "byte2": "0x01",
-    "IANA": "TLS_ECDH_ECDSA_WITH_NULL_SHA",
+    "iana": "TLS_ECDH_ECDSA_WITH_NULL_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1163,7 +1163,7 @@
     "int": 49154,
     "byte1": "0xC0",
     "byte2": "0x02",
-    "IANA": "TLS_ECDH_ECDSA_WITH_RC4_128_SHA",
+    "iana": "TLS_ECDH_ECDSA_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC4492][RFC6347]"
   },
@@ -1171,7 +1171,7 @@
     "int": 49155,
     "byte1": "0xC0",
     "byte2": "0x03",
-    "IANA": "TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1179,7 +1179,7 @@
     "int": 49156,
     "byte1": "0xC0",
     "byte2": "0x04",
-    "IANA": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1187,7 +1187,7 @@
     "int": 49157,
     "byte1": "0xC0",
     "byte2": "0x05",
-    "IANA": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1195,7 +1195,7 @@
     "int": 49158,
     "byte1": "0xC0",
     "byte2": "0x06",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_NULL_SHA",
+    "iana": "TLS_ECDHE_ECDSA_WITH_NULL_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1203,7 +1203,7 @@
     "int": 49159,
     "byte1": "0xC0",
     "byte2": "0x07",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_RC4_128_SHA",
+    "iana": "TLS_ECDHE_ECDSA_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC4492][RFC6347]"
   },
@@ -1211,7 +1211,7 @@
     "int": 49160,
     "byte1": "0xC0",
     "byte2": "0x08",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1219,7 +1219,7 @@
     "int": 49161,
     "byte1": "0xC0",
     "byte2": "0x09",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1227,7 +1227,7 @@
     "int": 49162,
     "byte1": "0xC0",
     "byte2": "0x0A",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1235,7 +1235,7 @@
     "int": 49163,
     "byte1": "0xC0",
     "byte2": "0x0B",
-    "IANA": "TLS_ECDH_RSA_WITH_NULL_SHA",
+    "iana": "TLS_ECDH_RSA_WITH_NULL_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1243,7 +1243,7 @@
     "int": 49164,
     "byte1": "0xC0",
     "byte2": "0x0C",
-    "IANA": "TLS_ECDH_RSA_WITH_RC4_128_SHA",
+    "iana": "TLS_ECDH_RSA_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC4492][RFC6347]"
   },
@@ -1251,7 +1251,7 @@
     "int": 49165,
     "byte1": "0xC0",
     "byte2": "0x0D",
-    "IANA": "TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1259,7 +1259,7 @@
     "int": 49166,
     "byte1": "0xC0",
     "byte2": "0x0E",
-    "IANA": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1267,7 +1267,7 @@
     "int": 49167,
     "byte1": "0xC0",
     "byte2": "0x0F",
-    "IANA": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1275,7 +1275,7 @@
     "int": 49168,
     "byte1": "0xC0",
     "byte2": "0x10",
-    "IANA": "TLS_ECDHE_RSA_WITH_NULL_SHA",
+    "iana": "TLS_ECDHE_RSA_WITH_NULL_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1283,7 +1283,7 @@
     "int": 49169,
     "byte1": "0xC0",
     "byte2": "0x11",
-    "IANA": "TLS_ECDHE_RSA_WITH_RC4_128_SHA",
+    "iana": "TLS_ECDHE_RSA_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC4492][RFC6347]"
   },
@@ -1291,7 +1291,7 @@
     "int": 49170,
     "byte1": "0xC0",
     "byte2": "0x12",
-    "IANA": "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1299,7 +1299,7 @@
     "int": 49171,
     "byte1": "0xC0",
     "byte2": "0x13",
-    "IANA": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1307,7 +1307,7 @@
     "int": 49172,
     "byte1": "0xC0",
     "byte2": "0x14",
-    "IANA": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1315,7 +1315,7 @@
     "int": 49173,
     "byte1": "0xC0",
     "byte2": "0x15",
-    "IANA": "TLS_ECDH_anon_WITH_NULL_SHA",
+    "iana": "TLS_ECDH_anon_WITH_NULL_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1323,7 +1323,7 @@
     "int": 49174,
     "byte1": "0xC0",
     "byte2": "0x16",
-    "IANA": "TLS_ECDH_anon_WITH_RC4_128_SHA",
+    "iana": "TLS_ECDH_anon_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC4492][RFC6347]"
   },
@@ -1331,7 +1331,7 @@
     "int": 49175,
     "byte1": "0xC0",
     "byte2": "0x17",
-    "IANA": "TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1339,7 +1339,7 @@
     "int": 49176,
     "byte1": "0xC0",
     "byte2": "0x18",
-    "IANA": "TLS_ECDH_anon_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_ECDH_anon_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1347,7 +1347,7 @@
     "int": 49177,
     "byte1": "0xC0",
     "byte2": "0x19",
-    "IANA": "TLS_ECDH_anon_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_ECDH_anon_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC4492]"
   },
@@ -1355,7 +1355,7 @@
     "int": 49178,
     "byte1": "0xC0",
     "byte2": "0x1A",
-    "IANA": "TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5054]"
   },
@@ -1363,7 +1363,7 @@
     "int": 49179,
     "byte1": "0xC0",
     "byte2": "0x1B",
-    "IANA": "TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5054]"
   },
@@ -1371,7 +1371,7 @@
     "int": 49180,
     "byte1": "0xC0",
     "byte2": "0x1C",
-    "IANA": "TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5054]"
   },
@@ -1379,7 +1379,7 @@
     "int": 49181,
     "byte1": "0xC0",
     "byte2": "0x1D",
-    "IANA": "TLS_SRP_SHA_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_SRP_SHA_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5054]"
   },
@@ -1387,7 +1387,7 @@
     "int": 49182,
     "byte1": "0xC0",
     "byte2": "0x1E",
-    "IANA": "TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5054]"
   },
@@ -1395,7 +1395,7 @@
     "int": 49183,
     "byte1": "0xC0",
     "byte2": "0x1F",
-    "IANA": "TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5054]"
   },
@@ -1403,7 +1403,7 @@
     "int": 49184,
     "byte1": "0xC0",
     "byte2": "0x20",
-    "IANA": "TLS_SRP_SHA_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_SRP_SHA_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5054]"
   },
@@ -1411,7 +1411,7 @@
     "int": 49185,
     "byte1": "0xC0",
     "byte2": "0x21",
-    "IANA": "TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5054]"
   },
@@ -1419,7 +1419,7 @@
     "int": 49186,
     "byte1": "0xC0",
     "byte2": "0x22",
-    "IANA": "TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5054]"
   },
@@ -1427,7 +1427,7 @@
     "int": 49187,
     "byte1": "0xC0",
     "byte2": "0x23",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1435,7 +1435,7 @@
     "int": 49188,
     "byte1": "0xC0",
     "byte2": "0x24",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1443,7 +1443,7 @@
     "int": 49189,
     "byte1": "0xC0",
     "byte2": "0x25",
-    "IANA": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1451,7 +1451,7 @@
     "int": 49190,
     "byte1": "0xC0",
     "byte2": "0x26",
-    "IANA": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1459,7 +1459,7 @@
     "int": 49191,
     "byte1": "0xC0",
     "byte2": "0x27",
-    "IANA": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1467,7 +1467,7 @@
     "int": 49192,
     "byte1": "0xC0",
     "byte2": "0x28",
-    "IANA": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1475,7 +1475,7 @@
     "int": 49193,
     "byte1": "0xC0",
     "byte2": "0x29",
-    "IANA": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1483,7 +1483,7 @@
     "int": 49194,
     "byte1": "0xC0",
     "byte2": "0x2A",
-    "IANA": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384",
+    "iana": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1491,7 +1491,7 @@
     "int": 49195,
     "byte1": "0xC0",
     "byte2": "0x2B",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1499,7 +1499,7 @@
     "int": 49196,
     "byte1": "0xC0",
     "byte2": "0x2C",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1507,7 +1507,7 @@
     "int": 49197,
     "byte1": "0xC0",
     "byte2": "0x2D",
-    "IANA": "TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1515,7 +1515,7 @@
     "int": 49198,
     "byte1": "0xC0",
     "byte2": "0x2E",
-    "IANA": "TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1523,7 +1523,7 @@
     "int": 49199,
     "byte1": "0xC0",
     "byte2": "0x2F",
-    "IANA": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1531,7 +1531,7 @@
     "int": 49200,
     "byte1": "0xC0",
     "byte2": "0x30",
-    "IANA": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1539,7 +1539,7 @@
     "int": 49201,
     "byte1": "0xC0",
     "byte2": "0x31",
-    "IANA": "TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256",
+    "iana": "TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1547,7 +1547,7 @@
     "int": 49202,
     "byte1": "0xC0",
     "byte2": "0x32",
-    "IANA": "TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384",
+    "iana": "TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC5289]"
   },
@@ -1555,7 +1555,7 @@
     "int": 49203,
     "byte1": "0xC0",
     "byte2": "0x33",
-    "IANA": "TLS_ECDHE_PSK_WITH_RC4_128_SHA",
+    "iana": "TLS_ECDHE_PSK_WITH_RC4_128_SHA",
     "dtls?": false,
     "reference": "[RFC5489][RFC6347]"
   },
@@ -1563,7 +1563,7 @@
     "int": 49204,
     "byte1": "0xC0",
     "byte2": "0x34",
-    "IANA": "TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA",
+    "iana": "TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5489]"
   },
@@ -1571,7 +1571,7 @@
     "int": 49205,
     "byte1": "0xC0",
     "byte2": "0x35",
-    "IANA": "TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5489]"
   },
@@ -1579,7 +1579,7 @@
     "int": 49206,
     "byte1": "0xC0",
     "byte2": "0x36",
-    "IANA": "TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA",
     "dtls?": true,
     "reference": "[RFC5489]"
   },
@@ -1587,7 +1587,7 @@
     "int": 49207,
     "byte1": "0xC0",
     "byte2": "0x37",
-    "IANA": "TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC5489]"
   },
@@ -1595,7 +1595,7 @@
     "int": 49208,
     "byte1": "0xC0",
     "byte2": "0x38",
-    "IANA": "TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC5489]"
   },
@@ -1603,7 +1603,7 @@
     "int": 49209,
     "byte1": "0xC0",
     "byte2": "0x39",
-    "IANA": "TLS_ECDHE_PSK_WITH_NULL_SHA",
+    "iana": "TLS_ECDHE_PSK_WITH_NULL_SHA",
     "dtls?": true,
     "reference": "[RFC5489]"
   },
@@ -1611,7 +1611,7 @@
     "int": 49210,
     "byte1": "0xC0",
     "byte2": "0x3A",
-    "IANA": "TLS_ECDHE_PSK_WITH_NULL_SHA256",
+    "iana": "TLS_ECDHE_PSK_WITH_NULL_SHA256",
     "dtls?": true,
     "reference": "[RFC5489]"
   },
@@ -1619,7 +1619,7 @@
     "int": 49211,
     "byte1": "0xC0",
     "byte2": "0x3B",
-    "IANA": "TLS_ECDHE_PSK_WITH_NULL_SHA384",
+    "iana": "TLS_ECDHE_PSK_WITH_NULL_SHA384",
     "dtls?": true,
     "reference": "[RFC5489]"
   },
@@ -1627,7 +1627,7 @@
     "int": 49212,
     "byte1": "0xC0",
     "byte2": "0x3C",
-    "IANA": "TLS_RSA_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_RSA_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1635,7 +1635,7 @@
     "int": 49213,
     "byte1": "0xC0",
     "byte2": "0x3D",
-    "IANA": "TLS_RSA_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_RSA_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1643,7 +1643,7 @@
     "int": 49214,
     "byte1": "0xC0",
     "byte2": "0x3E",
-    "IANA": "TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1651,7 +1651,7 @@
     "int": 49215,
     "byte1": "0xC0",
     "byte2": "0x3F",
-    "IANA": "TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1659,7 +1659,7 @@
     "int": 49216,
     "byte1": "0xC0",
     "byte2": "0x40",
-    "IANA": "TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1667,7 +1667,7 @@
     "int": 49217,
     "byte1": "0xC0",
     "byte2": "0x41",
-    "IANA": "TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1675,7 +1675,7 @@
     "int": 49218,
     "byte1": "0xC0",
     "byte2": "0x42",
-    "IANA": "TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1683,7 +1683,7 @@
     "int": 49219,
     "byte1": "0xC0",
     "byte2": "0x43",
-    "IANA": "TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1691,7 +1691,7 @@
     "int": 49220,
     "byte1": "0xC0",
     "byte2": "0x44",
-    "IANA": "TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1699,7 +1699,7 @@
     "int": 49221,
     "byte1": "0xC0",
     "byte2": "0x45",
-    "IANA": "TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1707,7 +1707,7 @@
     "int": 49222,
     "byte1": "0xC0",
     "byte2": "0x46",
-    "IANA": "TLS_DH_anon_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_DH_anon_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1715,7 +1715,7 @@
     "int": 49223,
     "byte1": "0xC0",
     "byte2": "0x47",
-    "IANA": "TLS_DH_anon_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_DH_anon_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1723,7 +1723,7 @@
     "int": 49224,
     "byte1": "0xC0",
     "byte2": "0x48",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1731,7 +1731,7 @@
     "int": 49225,
     "byte1": "0xC0",
     "byte2": "0x49",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1739,7 +1739,7 @@
     "int": 49226,
     "byte1": "0xC0",
     "byte2": "0x4A",
-    "IANA": "TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1747,7 +1747,7 @@
     "int": 49227,
     "byte1": "0xC0",
     "byte2": "0x4B",
-    "IANA": "TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1755,7 +1755,7 @@
     "int": 49228,
     "byte1": "0xC0",
     "byte2": "0x4C",
-    "IANA": "TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1763,7 +1763,7 @@
     "int": 49229,
     "byte1": "0xC0",
     "byte2": "0x4D",
-    "IANA": "TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1771,7 +1771,7 @@
     "int": 49230,
     "byte1": "0xC0",
     "byte2": "0x4E",
-    "IANA": "TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1779,7 +1779,7 @@
     "int": 49231,
     "byte1": "0xC0",
     "byte2": "0x4F",
-    "IANA": "TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1787,7 +1787,7 @@
     "int": 49232,
     "byte1": "0xC0",
     "byte2": "0x50",
-    "IANA": "TLS_RSA_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_RSA_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1795,7 +1795,7 @@
     "int": 49233,
     "byte1": "0xC0",
     "byte2": "0x51",
-    "IANA": "TLS_RSA_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_RSA_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1803,7 +1803,7 @@
     "int": 49234,
     "byte1": "0xC0",
     "byte2": "0x52",
-    "IANA": "TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1811,7 +1811,7 @@
     "int": 49235,
     "byte1": "0xC0",
     "byte2": "0x53",
-    "IANA": "TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1819,7 +1819,7 @@
     "int": 49236,
     "byte1": "0xC0",
     "byte2": "0x54",
-    "IANA": "TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1827,7 +1827,7 @@
     "int": 49237,
     "byte1": "0xC0",
     "byte2": "0x55",
-    "IANA": "TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1835,7 +1835,7 @@
     "int": 49238,
     "byte1": "0xC0",
     "byte2": "0x56",
-    "IANA": "TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1843,7 +1843,7 @@
     "int": 49239,
     "byte1": "0xC0",
     "byte2": "0x57",
-    "IANA": "TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1851,7 +1851,7 @@
     "int": 49240,
     "byte1": "0xC0",
     "byte2": "0x58",
-    "IANA": "TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1859,7 +1859,7 @@
     "int": 49241,
     "byte1": "0xC0",
     "byte2": "0x59",
-    "IANA": "TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1867,7 +1867,7 @@
     "int": 49242,
     "byte1": "0xC0",
     "byte2": "0x5A",
-    "IANA": "TLS_DH_anon_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_DH_anon_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1875,7 +1875,7 @@
     "int": 49243,
     "byte1": "0xC0",
     "byte2": "0x5B",
-    "IANA": "TLS_DH_anon_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_DH_anon_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1883,7 +1883,7 @@
     "int": 49244,
     "byte1": "0xC0",
     "byte2": "0x5C",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1891,7 +1891,7 @@
     "int": 49245,
     "byte1": "0xC0",
     "byte2": "0x5D",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1899,7 +1899,7 @@
     "int": 49246,
     "byte1": "0xC0",
     "byte2": "0x5E",
-    "IANA": "TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1907,7 +1907,7 @@
     "int": 49247,
     "byte1": "0xC0",
     "byte2": "0x5F",
-    "IANA": "TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1915,7 +1915,7 @@
     "int": 49248,
     "byte1": "0xC0",
     "byte2": "0x60",
-    "IANA": "TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1923,7 +1923,7 @@
     "int": 49249,
     "byte1": "0xC0",
     "byte2": "0x61",
-    "IANA": "TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1931,7 +1931,7 @@
     "int": 49250,
     "byte1": "0xC0",
     "byte2": "0x62",
-    "IANA": "TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1939,7 +1939,7 @@
     "int": 49251,
     "byte1": "0xC0",
     "byte2": "0x63",
-    "IANA": "TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1947,7 +1947,7 @@
     "int": 49252,
     "byte1": "0xC0",
     "byte2": "0x64",
-    "IANA": "TLS_PSK_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_PSK_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1955,7 +1955,7 @@
     "int": 49253,
     "byte1": "0xC0",
     "byte2": "0x65",
-    "IANA": "TLS_PSK_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_PSK_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1963,7 +1963,7 @@
     "int": 49254,
     "byte1": "0xC0",
     "byte2": "0x66",
-    "IANA": "TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1971,7 +1971,7 @@
     "int": 49255,
     "byte1": "0xC0",
     "byte2": "0x67",
-    "IANA": "TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1979,7 +1979,7 @@
     "int": 49256,
     "byte1": "0xC0",
     "byte2": "0x68",
-    "IANA": "TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1987,7 +1987,7 @@
     "int": 49257,
     "byte1": "0xC0",
     "byte2": "0x69",
-    "IANA": "TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -1995,7 +1995,7 @@
     "int": 49258,
     "byte1": "0xC0",
     "byte2": "0x6A",
-    "IANA": "TLS_PSK_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_PSK_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -2003,7 +2003,7 @@
     "int": 49259,
     "byte1": "0xC0",
     "byte2": "0x6B",
-    "IANA": "TLS_PSK_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_PSK_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -2011,7 +2011,7 @@
     "int": 49260,
     "byte1": "0xC0",
     "byte2": "0x6C",
-    "IANA": "TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -2019,7 +2019,7 @@
     "int": 49261,
     "byte1": "0xC0",
     "byte2": "0x6D",
-    "IANA": "TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -2027,7 +2027,7 @@
     "int": 49262,
     "byte1": "0xC0",
     "byte2": "0x6E",
-    "IANA": "TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256",
+    "iana": "TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -2035,7 +2035,7 @@
     "int": 49263,
     "byte1": "0xC0",
     "byte2": "0x6F",
-    "IANA": "TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384",
+    "iana": "TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -2043,7 +2043,7 @@
     "int": 49264,
     "byte1": "0xC0",
     "byte2": "0x70",
-    "IANA": "TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256",
+    "iana": "TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -2051,7 +2051,7 @@
     "int": 49265,
     "byte1": "0xC0",
     "byte2": "0x71",
-    "IANA": "TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384",
+    "iana": "TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6209]"
   },
@@ -2059,7 +2059,7 @@
     "int": 49266,
     "byte1": "0xC0",
     "byte2": "0x72",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2067,7 +2067,7 @@
     "int": 49267,
     "byte1": "0xC0",
     "byte2": "0x73",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
+    "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2075,7 +2075,7 @@
     "int": 49268,
     "byte1": "0xC0",
     "byte2": "0x74",
-    "IANA": "TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2083,7 +2083,7 @@
     "int": 49269,
     "byte1": "0xC0",
     "byte2": "0x75",
-    "IANA": "TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
+    "iana": "TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2091,7 +2091,7 @@
     "int": 49270,
     "byte1": "0xC0",
     "byte2": "0x76",
-    "IANA": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2099,7 +2099,7 @@
     "int": 49271,
     "byte1": "0xC0",
     "byte2": "0x77",
-    "IANA": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384",
+    "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2107,7 +2107,7 @@
     "int": 49272,
     "byte1": "0xC0",
     "byte2": "0x78",
-    "IANA": "TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2115,7 +2115,7 @@
     "int": 49273,
     "byte1": "0xC0",
     "byte2": "0x79",
-    "IANA": "TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384",
+    "iana": "TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2123,7 +2123,7 @@
     "int": 49274,
     "byte1": "0xC0",
     "byte2": "0x7A",
-    "IANA": "TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2131,7 +2131,7 @@
     "int": 49275,
     "byte1": "0xC0",
     "byte2": "0x7B",
-    "IANA": "TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2139,7 +2139,7 @@
     "int": 49276,
     "byte1": "0xC0",
     "byte2": "0x7C",
-    "IANA": "TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2147,7 +2147,7 @@
     "int": 49277,
     "byte1": "0xC0",
     "byte2": "0x7D",
-    "IANA": "TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2155,7 +2155,7 @@
     "int": 49278,
     "byte1": "0xC0",
     "byte2": "0x7E",
-    "IANA": "TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2163,7 +2163,7 @@
     "int": 49279,
     "byte1": "0xC0",
     "byte2": "0x7F",
-    "IANA": "TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2171,7 +2171,7 @@
     "int": 49280,
     "byte1": "0xC0",
     "byte2": "0x80",
-    "IANA": "TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2179,7 +2179,7 @@
     "int": 49281,
     "byte1": "0xC0",
     "byte2": "0x81",
-    "IANA": "TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2187,7 +2187,7 @@
     "int": 49282,
     "byte1": "0xC0",
     "byte2": "0x82",
-    "IANA": "TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2195,7 +2195,7 @@
     "int": 49283,
     "byte1": "0xC0",
     "byte2": "0x83",
-    "IANA": "TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2203,7 +2203,7 @@
     "int": 49284,
     "byte1": "0xC0",
     "byte2": "0x84",
-    "IANA": "TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2211,7 +2211,7 @@
     "int": 49285,
     "byte1": "0xC0",
     "byte2": "0x85",
-    "IANA": "TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2219,7 +2219,7 @@
     "int": 49286,
     "byte1": "0xC0",
     "byte2": "0x86",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2227,7 +2227,7 @@
     "int": 49287,
     "byte1": "0xC0",
     "byte2": "0x87",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2235,7 +2235,7 @@
     "int": 49288,
     "byte1": "0xC0",
     "byte2": "0x88",
-    "IANA": "TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2243,7 +2243,7 @@
     "int": 49289,
     "byte1": "0xC0",
     "byte2": "0x89",
-    "IANA": "TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2251,7 +2251,7 @@
     "int": 49290,
     "byte1": "0xC0",
     "byte2": "0x8A",
-    "IANA": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2259,7 +2259,7 @@
     "int": 49291,
     "byte1": "0xC0",
     "byte2": "0x8B",
-    "IANA": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2267,7 +2267,7 @@
     "int": 49292,
     "byte1": "0xC0",
     "byte2": "0x8C",
-    "IANA": "TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2275,7 +2275,7 @@
     "int": 49293,
     "byte1": "0xC0",
     "byte2": "0x8D",
-    "IANA": "TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2283,7 +2283,7 @@
     "int": 49294,
     "byte1": "0xC0",
     "byte2": "0x8E",
-    "IANA": "TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2291,7 +2291,7 @@
     "int": 49295,
     "byte1": "0xC0",
     "byte2": "0x8F",
-    "IANA": "TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2299,7 +2299,7 @@
     "int": 49296,
     "byte1": "0xC0",
     "byte2": "0x90",
-    "IANA": "TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2307,7 +2307,7 @@
     "int": 49297,
     "byte1": "0xC0",
     "byte2": "0x91",
-    "IANA": "TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2315,7 +2315,7 @@
     "int": 49298,
     "byte1": "0xC0",
     "byte2": "0x92",
-    "IANA": "TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256",
+    "iana": "TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2323,7 +2323,7 @@
     "int": 49299,
     "byte1": "0xC0",
     "byte2": "0x93",
-    "IANA": "TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384",
+    "iana": "TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2331,7 +2331,7 @@
     "int": 49300,
     "byte1": "0xC0",
     "byte2": "0x94",
-    "IANA": "TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2339,7 +2339,7 @@
     "int": 49301,
     "byte1": "0xC0",
     "byte2": "0x95",
-    "IANA": "TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+    "iana": "TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2347,7 +2347,7 @@
     "int": 49302,
     "byte1": "0xC0",
     "byte2": "0x96",
-    "IANA": "TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2355,7 +2355,7 @@
     "int": 49303,
     "byte1": "0xC0",
     "byte2": "0x97",
-    "IANA": "TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+    "iana": "TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2363,7 +2363,7 @@
     "int": 49304,
     "byte1": "0xC0",
     "byte2": "0x98",
-    "IANA": "TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2371,7 +2371,7 @@
     "int": 49305,
     "byte1": "0xC0",
     "byte2": "0x99",
-    "IANA": "TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+    "iana": "TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2379,7 +2379,7 @@
     "int": 49306,
     "byte1": "0xC0",
     "byte2": "0x9A",
-    "IANA": "TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+    "iana": "TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2387,7 +2387,7 @@
     "int": 49307,
     "byte1": "0xC0",
     "byte2": "0x9B",
-    "IANA": "TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+    "iana": "TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
     "dtls?": true,
     "reference": "[RFC6367]"
   },
@@ -2395,7 +2395,7 @@
     "int": 49308,
     "byte1": "0xC0",
     "byte2": "0x9C",
-    "IANA": "TLS_RSA_WITH_AES_128_CCM",
+    "iana": "TLS_RSA_WITH_AES_128_CCM",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2403,7 +2403,7 @@
     "int": 49309,
     "byte1": "0xC0",
     "byte2": "0x9D",
-    "IANA": "TLS_RSA_WITH_AES_256_CCM",
+    "iana": "TLS_RSA_WITH_AES_256_CCM",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2411,7 +2411,7 @@
     "int": 49310,
     "byte1": "0xC0",
     "byte2": "0x9E",
-    "IANA": "TLS_DHE_RSA_WITH_AES_128_CCM",
+    "iana": "TLS_DHE_RSA_WITH_AES_128_CCM",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2419,7 +2419,7 @@
     "int": 49311,
     "byte1": "0xC0",
     "byte2": "0x9F",
-    "IANA": "TLS_DHE_RSA_WITH_AES_256_CCM",
+    "iana": "TLS_DHE_RSA_WITH_AES_256_CCM",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2427,7 +2427,7 @@
     "int": 49312,
     "byte1": "0xC0",
     "byte2": "0xA0",
-    "IANA": "TLS_RSA_WITH_AES_128_CCM_8",
+    "iana": "TLS_RSA_WITH_AES_128_CCM_8",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2435,7 +2435,7 @@
     "int": 49313,
     "byte1": "0xC0",
     "byte2": "0xA1",
-    "IANA": "TLS_RSA_WITH_AES_256_CCM_8",
+    "iana": "TLS_RSA_WITH_AES_256_CCM_8",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2443,7 +2443,7 @@
     "int": 49314,
     "byte1": "0xC0",
     "byte2": "0xA2",
-    "IANA": "TLS_DHE_RSA_WITH_AES_128_CCM_8",
+    "iana": "TLS_DHE_RSA_WITH_AES_128_CCM_8",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2451,7 +2451,7 @@
     "int": 49315,
     "byte1": "0xC0",
     "byte2": "0xA3",
-    "IANA": "TLS_DHE_RSA_WITH_AES_256_CCM_8",
+    "iana": "TLS_DHE_RSA_WITH_AES_256_CCM_8",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2459,7 +2459,7 @@
     "int": 49316,
     "byte1": "0xC0",
     "byte2": "0xA4",
-    "IANA": "TLS_PSK_WITH_AES_128_CCM",
+    "iana": "TLS_PSK_WITH_AES_128_CCM",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2467,7 +2467,7 @@
     "int": 49317,
     "byte1": "0xC0",
     "byte2": "0xA5",
-    "IANA": "TLS_PSK_WITH_AES_256_CCM",
+    "iana": "TLS_PSK_WITH_AES_256_CCM",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2475,7 +2475,7 @@
     "int": 49318,
     "byte1": "0xC0",
     "byte2": "0xA6",
-    "IANA": "TLS_DHE_PSK_WITH_AES_128_CCM",
+    "iana": "TLS_DHE_PSK_WITH_AES_128_CCM",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2483,7 +2483,7 @@
     "int": 49319,
     "byte1": "0xC0",
     "byte2": "0xA7",
-    "IANA": "TLS_DHE_PSK_WITH_AES_256_CCM",
+    "iana": "TLS_DHE_PSK_WITH_AES_256_CCM",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2491,7 +2491,7 @@
     "int": 49320,
     "byte1": "0xC0",
     "byte2": "0xA8",
-    "IANA": "TLS_PSK_WITH_AES_128_CCM_8",
+    "iana": "TLS_PSK_WITH_AES_128_CCM_8",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2499,7 +2499,7 @@
     "int": 49321,
     "byte1": "0xC0",
     "byte2": "0xA9",
-    "IANA": "TLS_PSK_WITH_AES_256_CCM_8",
+    "iana": "TLS_PSK_WITH_AES_256_CCM_8",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2507,7 +2507,7 @@
     "int": 49322,
     "byte1": "0xC0",
     "byte2": "0xAA",
-    "IANA": "TLS_PSK_DHE_WITH_AES_128_CCM_8",
+    "iana": "TLS_PSK_DHE_WITH_AES_128_CCM_8",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2515,7 +2515,7 @@
     "int": 49323,
     "byte1": "0xC0",
     "byte2": "0xAB",
-    "IANA": "TLS_PSK_DHE_WITH_AES_256_CCM_8",
+    "iana": "TLS_PSK_DHE_WITH_AES_256_CCM_8",
     "dtls?": true,
     "reference": "[RFC6655]"
   },
@@ -2523,7 +2523,7 @@
     "int": 49324,
     "byte1": "0xC0",
     "byte2": "0xAC",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM",
     "dtls?": true,
     "reference": "[RFC7251]"
   },
@@ -2531,7 +2531,7 @@
     "int": 49325,
     "byte1": "0xC0",
     "byte2": "0xAD",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM",
     "dtls?": true,
     "reference": "[RFC7251]"
   },
@@ -2539,7 +2539,7 @@
     "int": 49326,
     "byte1": "0xC0",
     "byte2": "0xAE",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8",
     "dtls?": true,
     "reference": "[RFC7251]"
   },
@@ -2547,7 +2547,7 @@
     "int": 49327,
     "byte1": "0xC0",
     "byte2": "0xAF",
-    "IANA": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8",
     "dtls?": true,
     "reference": "[RFC7251]"
   }
