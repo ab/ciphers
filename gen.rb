@@ -47,20 +47,29 @@ IanaKeys = %w{byte1 byte2 iana dtls? reference}
 OpensslKeys = %w{openssl ssl_version kx au enc mac export}
 
 def csv_process_row(key, hash)
-  if hash.include?('openssl')
+  include_openssl = hash.include?('openssl')
+  if include_openssl
     keys = IanaKeys + OpensslKeys
   else
     keys = IanaKeys
   end
 
-  keys.map do |k|
+  row = []
+
+  keys.each do |k|
     begin
-      hash.fetch(k)
+      row << hash.fetch(k)
     rescue KeyError
       STDERR.puts "No #{k.inspect} in #{key.inspect}: #{hash.inspect}"
       raise
     end
   end
+
+  unless include_openssl
+    OpensslKeys.each { row << nil }
+  end
+
+  row
 end
 
 def generate_csv(iana_json, openssl_json)
