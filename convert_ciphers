@@ -1,0 +1,86 @@
+#!/usr/bin/env ruby
+require 'json'
+
+def usage
+  STDERR.puts <<-EOM
+usage: #{File.basename($0)} FROM_FORMAT TO_FORMAT [FILE...]
+
+Convert TLS cipher suite names in FROM_FORMAT to those for TO_FORMAT for each
+listed FILE (or standard input, if none is provided).
+
+FORMATS (case insensitive):
+  - OpenSSL
+  - IANA
+EOM
+end
+
+JSON_FILE = File.join(File.dirname(__FILE__), 'ciphers.json')
+
+def json_data
+  @json_data ||= JSON.parse(File.read(JSON_FILE))
+end
+
+def generate_mapping(from_key, to_key)
+  map = {}
+  json_data.each_pair do |k, data|
+    begin
+      map[data.fetch(from_key)] = data.fetch(to_key)
+    rescue KeyError
+      # skip ciphers with no mapping for source or dest
+      next
+    end
+  end
+  map
+end
+
+def openssl_to_iana_cipher_map
+  @openssl_to_iana_map ||= generate_mapping('openssl', 'iana')
+end
+
+def iana_to_openssl_cipher_map
+  @iana_to_openssl_map ||= generate_mapping('iana', 'openssl')
+end
+
+def convert(from_format, to_format, io)
+  case [from_format.downcase, to_format.downcase]
+  when ['openssl', 'iana']
+    map = openssl_to_iana_cipher_map
+  when ['iana', 'openssl']
+    map = iana_to_openssl_cipher_map
+  else
+    usage
+    STDERR.puts "Invalid conversion: #{from_format} to #{to_format}"
+    return 1
+  end
+
+  io.each_line do |line|
+    begin
+      STDOUT.puts(map.fetch(line.chomp))
+    rescue KeyError
+      STDERR.puts("Failed to find conversion for #{line.chomp.inspect}")
+      return 2
+    end
+  end
+
+  return 0
+end
+
+def main(from_format, to_format, files)
+  if files.empty?
+    STDERR.puts "Reading ciphers from stdin..."
+    ret = convert(from_format, to_format, STDIN)
+    exit ret
+  else
+    files.each do |filename|
+      ret = convert(from_format, to_format, File.open(filename, 'r'))
+      exit(ret) if ret != 0
+    end
+  end
+end
+
+if ARGV.length < 2
+  usage
+  exit 1
+end
+
+main(ARGV.fetch(0), ARGV.fetch(1), ARGV[2..-1])
